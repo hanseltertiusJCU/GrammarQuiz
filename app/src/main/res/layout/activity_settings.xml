@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9E9E9E"
+    tools:context="com.example.hansel.grammarquiz.ActivitySettings">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:scrollbars="vertical"
+        android:maxLines="1000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9" />
+
+    <Button
+        android:onClick="accelarometer"
+        android:id="@+id/accelarometerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:text="Accelerometer"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:onClick="tutorial"
+        android:id="@+id/tutorialButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:text="How to Play"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:onClick="about"
+        android:id="@+id/aboutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:text="About"
+        android:layout_marginTop="25dp"/>
+
+
+    <Button
+        android:id="@+id/mainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#B71C1C"
+        android:onClick="mainMenu"
+        android:text="Back to Main Menu"
+        android:textColor="#fff" />
+
+</LinearLayout>

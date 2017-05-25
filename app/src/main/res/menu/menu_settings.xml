@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hansel.grammarquiz.ActivitySettings">
+    <item
+        android:id="@+id/action_mainMenu"
+        android:orderInCategory="100"
+        android:title="Main Menu"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_highScores"
+        android:orderInCategory="100"
+        android:title="High Scores"
+        app:showAsAction="never" />
+</menu>

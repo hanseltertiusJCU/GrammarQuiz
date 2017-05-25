@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3F51B5"
+    tools:context="com.example.hansel.grammarquiz.MainActivity">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:scrollbars="vertical"
+        android:maxLines="1000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="playScreen"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:text="Play"
+        android:id="@+id/playButton"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="highScoreScreen"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:text="High Scores"
+        android:id="@+id/highScoreButton"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="settingScreen"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:text="Settings"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:text="@string/authorize"
+        android:id="@+id/authorize"
+        android:onClick="authorise"
+        android:background="#0091EA"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+    />
+
+</LinearLayout>

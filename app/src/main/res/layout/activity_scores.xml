@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffd700"
+    tools:context="com.example.hansel.grammarquiz.ScoresActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Score: "
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreLabel"
+        android:text="0"
+        android:textSize="40sp"
+        android:layout_marginTop="80dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highScoreLabel"
+        android:text="High Score: 0"
+        android:textSize="20sp"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/text_view"
+        android:scrollbars="vertical"
+        android:maxLines="1000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9" />
+
+    <Button
+        android:id="@+id/mainMenu"
+        android:onClick="mainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B71C1C"
+        android:textColor="#fff"
+        android:layout_marginTop="50dp"
+        android:text="Back to Main Menu"/>
+
+</LinearLayout>
